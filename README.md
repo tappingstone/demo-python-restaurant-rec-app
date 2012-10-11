@@ -1,4 +1,4 @@
-Welcome to the TappingStone Python demo application.
+Welcome to the TappingStone Restaurant Recommendation Python demo application.
 
 This demo application was written and tested using Python 2.7.3 and it is recommended that you use at least Python version 2.7+.
 Should there be any issues running it under any other versions of Python, please contact help@tappingstone.com.
