@@ -14,7 +14,7 @@ class ServerActions:
 
     def __init__(self):
         #Initalize Stone Client
-        appKey = '5x4h1i4p33k3m5h552i615s521c313h'
+        appKey = ''
         apiUrl = 'https://stoneapi.com'
         apiVer = 'v1'
         threadCount = 100
