@@ -40,7 +40,8 @@ if __name__ == '__main__':
         print '1. Get userID info'
         print '2. View restaurants'
         print '3. Get recommended restaurants'
-        print '4. Quit'
+        print '4. Get Item Info'
+        print '5. Quit'
         userChoice = raw_input()
 
         if userChoice == str(1):
@@ -87,9 +88,14 @@ if __name__ == '__main__':
                 print restMap[i]
             print '\n'
         elif userChoice == str(4):
+            print 'Please enter the item number:'
+            n = raw_input()
+            print 'Now getting item response:\n'
+            response = server.getItemInfo(stoneClient, False, n)
+            print response
+        elif userChoice == str(5):
             print 'Thank you for trying out the Tapping Stone Demo Python App!'
             menuLoop = False
-
     exit(0)
 
 
